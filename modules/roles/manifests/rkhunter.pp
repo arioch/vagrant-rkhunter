@@ -4,5 +4,5 @@
 class roles::rkhunter {
 
   include profiles::rkhunter
-  
+
 }

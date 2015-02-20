@@ -23,5 +23,5 @@
 ##Extra
 
 * **rkhunter --help**: for more info.
-* **tail -f /var/log/rkhunter/rkhunter.log**: log file 
+* **tail -f /var/log/rkhunter/rkhunter.log**: log file
 * **vi /etc/rkhunter.conf**: config file Rkhunter
