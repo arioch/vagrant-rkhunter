@@ -1,3 +1,4 @@
 #rkhunter.yaml
 
 root_email: localhost
+syslog: true
