@@ -3,17 +3,6 @@
 root_email: localhost
 syslog: true
 
-rkhunter-1: 'rkhunter propupd'
-rkhunter-1-command: 'rkhunter --propupd'
-rkhunter-1-hour: 2
-rkhunter-1-minute: 10
-
-rkhunter-2: 'rkhunter pkgmgr RPM'
-rkhunter-2-command: 'rkhunter --propupd --pkgmgr RPM'
-rkhunter-2-hour: 2
-rkhunter-2-minute: 15
-
-rkhunter-3: 'rkhunter check'
-rkhunter-3-command: 'rkhunter --check --sk'
-rkhunter-3-hour: 2
-rkhunter-3-minute: 20
+rkhunter_cron_propupd: true
+rkhunter_cron_rpm: true
+rkhunter_cron_check: true
