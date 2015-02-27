@@ -4,17 +4,9 @@ class profiles::rkhunter {
 
   include ::rkhunter
 
-  #$root_email = hiera('root_email')
-  #$syslog = hiera('syslog')
-
-  #class { '::rkhunter':
-    #rootEmail    => "${root_email}",
-    #remoteSyslog => "${syslog}",
-  #}
-
-$rkhunter_cron_propupd = hiera('rkhunter_cron_propupd')
-$rkhunter_cron_rpm     = hiera('rkhunter_cron_rpm')
-$rkhunter_cron_check   = hiera('rkhunter_cron_check')
+$rkhunter_cron_propupd = hiera('rkhunter::cron_propupd')
+$rkhunter_cron_rpm = hiera('rkhunter::cron_rpm')
+$rkhunter_cron_check = hiera('rkhunter::cron_check')
 
  if $rkhunter_cron_propupd {
 

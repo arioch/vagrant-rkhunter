@@ -1,9 +1,0 @@
-#rkhunter.yaml
-rkhunter::rootEmail: localhost
-rkhunter::remoteSyslog: true
-#root_email: localhost
-#syslog: true
-
-rkhunter_cron_propupd: true
-rkhunter_cron_rpm: true
-rkhunter_cron_check: true
