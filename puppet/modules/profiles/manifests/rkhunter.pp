@@ -1,7 +1,6 @@
 #
 class profiles::rkhunter {
 
-
   include ::rkhunter
 
 $rkhunter_cron_propupd = hiera('rkhunter::cron_propupd')
